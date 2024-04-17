@@ -38,7 +38,7 @@ function scoresAverage(moviesArray) {
         }
     },0 )
     let average = scores / moviesArray.length
-    return average.toFixed(2)
+    return Number(average.toFixed(2))
 }
 console.log(scoresAverage(movies))
 
